@@ -2,6 +2,8 @@ body{
     /* background-color: rgb(164, 95, 228); */
     background: linear-gradient(135deg, rgba(222,186,245,1) 0%, rgba(187,77,255,1) 33%, rgba(187,77,255,1) 66%, rgba(222,186,245,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
+    height:100vh;
+    overflow: hidden;
 }
 .parent{
     /* flexbox properties for getting stuff where we want it */
@@ -10,7 +12,7 @@ body{
     align-items: center;
 
     /* makes the div cover a full page */
-    height: 100vh;
+    height: 100%;
     
 }
 .login-box{
@@ -44,7 +46,7 @@ body{
 
 /*  */
 .submit{
-    width: 33%;
+    width: 45%;
     height: 20%;
     font-size: large;
     font-weight: bold;
